@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion AndroidApp.COMPILE_SDK
+
+  defaultConfig {
+    minSdkVersion AndroidApp.MIN_SDK
+    targetSdkVersion AndroidApp.TARGET_SDK
+  }
+
+  // This might not be necesary anymore from Kotlin 1.4.21
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
+}
