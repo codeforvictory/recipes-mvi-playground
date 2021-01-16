@@ -1,4 +1,4 @@
-package org.codeforvicotory.android.recipes.ui.theme
+package org.codeforvicotory.android.recipes.ui.common.resources
 
 import androidx.compose.ui.graphics.Color
 

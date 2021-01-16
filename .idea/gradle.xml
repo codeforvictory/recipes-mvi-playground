@@ -11,8 +11,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app-data" />
             <option value="$PROJECT_DIR$/app-data/recipe" />
+            <option value="$PROJECT_DIR$/app-domain" />
             <option value="$PROJECT_DIR$/app-domain/recipe" />
+            <option value="$PROJECT_DIR$/app-ui" />
+            <option value="$PROJECT_DIR$/app-ui-common" />
+            <option value="$PROJECT_DIR$/app-ui-common/resources" />
+            <option value="$PROJECT_DIR$/app-ui/cesards" />
             <option value="$PROJECT_DIR$/app/android" />
           </set>
         </option>

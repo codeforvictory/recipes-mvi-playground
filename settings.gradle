@@ -1,10 +1,8 @@
 rootProject.name = "Recipes MVI Playground"
 
-include ':android-app'
-project(':android-app').projectDir = file("${rootDir}/app/android")
+include ':app:android'
+include ":app-ui:cesards"
+include ":app-ui-common:resources"
+include ":app-domain:recipe"
+include ":app-data:recipe"
 
-include ':recipe-domain'
-project(':recipe-domain').projectDir = file("${rootDir}/app-domain/recipe")
-
-include ':recipe-data'
-project(':recipe-data').projectDir = file("${rootDir}/app-data/recipe")
