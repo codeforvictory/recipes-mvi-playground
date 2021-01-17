@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/app-ui-common/resources" />
             <option value="$PROJECT_DIR$/app-ui/cesards" />
             <option value="$PROJECT_DIR$/app/android" />
+            <option value="$PROJECT_DIR$/buildSrc" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
