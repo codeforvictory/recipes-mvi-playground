@@ -1,8 +1,0 @@
-rootProject.name = "Recipes MVI Playground"
-
-include ':app:android'
-include ":app-ui:cesards"
-include ":app-ui-common:resources"
-include ":app-domain:recipe"
-include ":app-data:recipe"
-
