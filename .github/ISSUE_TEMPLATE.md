@@ -3,8 +3,9 @@ name: "Issue Report"
 about: Help improving the app by reporting issues.
 ---
 
-<!-- The bug you're experiencing might have already be reported! -->
-<!-- Please, take minute to look for potential duplications [here](https://github.com/CodeForVictory/recipes-mvi-playground/issues) before opening a new report. -->
+<!-- The bug you're experiencing might have already been reported! -->
+<!-- Please, take a minute to look for potential issue duplications before reporting a new issue:
+<!-- https://github.com/CodeForVictory/recipes-mvi-playground/issues -->
 
 ### Description
 <!-- Tell us about the issue you are experiencing. -->
@@ -14,10 +15,10 @@ about: Help improving the app by reporting issues.
 
 ### Reproduction Steps
 <!-- Tell us in as much detail as possible the steps you took when you ran into the issue.  -->
-<!-- Consider attaching screenshots, videos and provide any other information that could be relevant.  -->
+<!-- Consider attaching screenshots, videos or any other relevant information.  -->
 
 ### Context (Environment Information)
-<!-- Include as many relevant details as possible. -->
-* Device information (brand, version, ...)
-* Android version
-* Any other details that could be helpful
+<!-- Include as many relevant details as possible (if applies). -->
+<!-- * Device information (brand, version, ...) -->
+<!-- * Android version -->
+<!-- * Any other details that could be helpful -->
