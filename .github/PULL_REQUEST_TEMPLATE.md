@@ -1,4 +1,4 @@
-# <\U0001F680 Pull Request Title>
+# <Pull Request Title>
 
 ### Description
 <!-- Tell us about the implemented behavior. Does the PR solve an existing issue? Does it introduce new behavior? Does it update our docs?... -->
