@@ -1,8 +1,7 @@
 package org.codeforvicotory.android.recipes.ui.common.resources
 
-
 // Set of Material typography styles to start with
-//val typography = Typography(
+// val typography = Typography(
   /*body1 = TextStyle(
     fontFamily = FontFamily.Default,
     fontWeight = FontWeight.Normal,
@@ -20,4 +19,4 @@ package org.codeforvicotory.android.recipes.ui.common.resources
         fontSize = 12.sp
     )
     */
-//)
+// )

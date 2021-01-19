@@ -1,12 +1,5 @@
 package org.codeforvicotory.android.recipes.ui.common.resources
 
-import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.darkColors
-import androidx.compose.material.lightColors
-import org.codeforvicotory.android.recipes.ui.common.resources.purple700
-import org.codeforvicotory.android.recipes.ui.common.resources.teal200
-
 /*private val DarkColorPalette = darkColors(
   primary = purple200,
   primaryVariant = purple700,
