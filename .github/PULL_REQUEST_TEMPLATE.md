@@ -1,17 +1,15 @@
-# <Pull Request Title>
-
-### Description
+## Description
 <!-- Tell us about the implemented behavior. Does the PR solve an existing issue? Does it introduce new behavior? Does it update our docs?... -->
 
-### What kind of change does this PR introduce?
+## What kind of change does this PR introduce?
 <!-- (Bug fix, feature, docs update, ...) -->
 
-### Context
+## Context
 <!-- Include as many relevant details as possible. -->
 * Does this PR introduce a breaking change? (regressions)
 * Were there any other alternatives you considered when implementing the current solution?
 * Any other details that could be helpful (screenshots of the new feature, etc.)
 
-### Final Checks
+## Final Checks
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been added / updated (for bug fixes / features)
