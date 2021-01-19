@@ -1,7 +1,4 @@
----
-name: "\U0001F680 Feature Request"
-about: "I have a suggestion (and may want to implement it \U0001F642)!"
----
+# <\U0001F680 Pull Request Title>
 
 ### Description
 <!-- Tell us about the implemented behavior. Does the PR solve an existing issue? Does it introduce new behavior? Does it update our docs?... -->
