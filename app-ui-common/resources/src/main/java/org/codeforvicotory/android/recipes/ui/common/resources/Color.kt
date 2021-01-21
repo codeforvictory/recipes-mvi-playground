@@ -11,4 +11,3 @@ val purple200 = Color(COLOR_PURPLE_200)
 val purple500 = Color(COLOR_PURPLE_500)
 val purple700 = Color(COLOR_PURPLE_700)
 val teal200 = Color(COLOR_TEAL_200)
-
