@@ -1,0 +1,19 @@
+name: Gradle Wrapper Validation
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  validation:
+    # https://github.com/gradle/wrapper-validation-action
+    name: "Validation"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v2
+      - name: Validate Gradle Wrapper
+        uses: gradle/wrapper-validation-action@v1
