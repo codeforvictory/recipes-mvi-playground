@@ -9,6 +9,7 @@ import org.codeforvictory.android.recipes.data.api.recipe.model.ApiMeal
 import org.codeforvictory.android.recipes.data.api.recipe.model.ApiMealsResponse
 import org.codeforvictory.recipes.domain.common.model.meal.Meal
 import org.junit.jupiter.api.Test
+import java.io.IOException
 
 internal class RecipeApiSourceTest {
 
@@ -41,6 +42,14 @@ internal class RecipeApiSourceTest {
 
     @Test
     fun `all - should return error when request is unsuccessful`() = runBlockingTest {
-        "" shouldBeEqualTo null
+        // Given
+        val expectedException = IOException()
+        coEvery { recipeService.filter() } throws expectedException
+
+        // When
+        val result = recipeApiSource.all()
+
+        // Then
+        result shouldBeEqualTo Result.failure(expectedException)
     }
 }
