@@ -15,9 +15,9 @@ android {
   }
   kotlinOptions {
     jvmTarget = "1.8"
-  }
-
-  kotlinOptions {
-    freeCompilerArgs = ["-Xallow-result-return-type"]
+    freeCompilerArgs += [
+        "-Xopt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+        "-Xallow-result-return-type",
+    ]
   }
 }
