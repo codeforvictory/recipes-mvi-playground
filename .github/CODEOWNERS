@@ -1,5 +1,6 @@
-/app-data/recipe    @cesards
-/app-domain/recipe  @cesards
-/app-ui/cesards     @cesards
+app-cesards/        @cesards
+app-ui-common/      @cesards
+app-domain-common/  @cesards
+app-api-common/     @cesards
 .github/            @cesards
 .idea/              @cesards

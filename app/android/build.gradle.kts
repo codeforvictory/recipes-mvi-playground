@@ -29,10 +29,9 @@ android {
 
   productFlavors {
     create("cesards")
-    create("dlemures")
   }
 }
 
 dependencies {
-  "cesardsImplementation"(project(":app-ui:cesards"))
+  "cesardsImplementation"(project(":app-cesards:app-init"))
 }

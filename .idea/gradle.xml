@@ -12,14 +12,18 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/app-data" />
-            <option value="$PROJECT_DIR$/app-data/recipe" />
-            <option value="$PROJECT_DIR$/app-domain" />
-            <option value="$PROJECT_DIR$/app-domain/recipe" />
-            <option value="$PROJECT_DIR$/app-ui" />
+            <option value="$PROJECT_DIR$/app-api-common" />
+            <option value="$PROJECT_DIR$/app-api-common/recipe" />
+            <option value="$PROJECT_DIR$/app-cesards" />
+            <option value="$PROJECT_DIR$/app-cesards/app-init" />
+            <option value="$PROJECT_DIR$/app-cesards/data" />
+            <option value="$PROJECT_DIR$/app-cesards/domain" />
+            <option value="$PROJECT_DIR$/app-cesards/ui" />
+            <option value="$PROJECT_DIR$/app-cesards/ui-common" />
+            <option value="$PROJECT_DIR$/app-domain-common" />
+            <option value="$PROJECT_DIR$/app-domain-common/model" />
             <option value="$PROJECT_DIR$/app-ui-common" />
-            <option value="$PROJECT_DIR$/app-ui-common/resources" />
-            <option value="$PROJECT_DIR$/app-ui/cesards" />
+            <option value="$PROJECT_DIR$/app-ui-common/recipe" />
             <option value="$PROJECT_DIR$/app/android" />
             <option value="$PROJECT_DIR$/buildSrc" />
           </set>
