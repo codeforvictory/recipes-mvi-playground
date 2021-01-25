@@ -16,6 +16,6 @@ object RetrofitProvider {
                         .build()
                 }
             }
-            return singleton!!
+            return requireNotNull(singleton)
         }
 }

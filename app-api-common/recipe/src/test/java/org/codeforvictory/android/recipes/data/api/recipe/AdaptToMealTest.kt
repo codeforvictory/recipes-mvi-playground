@@ -1,9 +1,8 @@
 package org.codeforvictory.android.recipes.data.api.recipe
 
+import org.amshove.kluent.shouldBeEqualTo
 import org.codeforvictory.android.recipes.data.api.recipe.model.ApiMeal
-import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertAll
 
 internal class AdaptToMealTest {
 
@@ -18,10 +17,8 @@ internal class AdaptToMealTest {
         val result = adaptToMeal(apiMeal)
 
         // Then
-        assertAll(
-            { assertEquals(apiMeal.id, result.id) },
-            { assertEquals(apiMeal.name, result.name) },
-            { assertEquals(apiMeal.imageThumbnailUrl, result.imageThumbUrl) },
-        )
+        result.id shouldBeEqualTo apiMeal.id
+        result.name shouldBeEqualTo apiMeal.name
+        result.imageThumbUrl shouldBeEqualTo apiMeal.imageThumbnailUrl
     }
 }

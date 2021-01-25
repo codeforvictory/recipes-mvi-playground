@@ -12,6 +12,6 @@ internal class RecipeServiceProvider(private val retrofit: Retrofit = RetrofitPr
                     singleton = retrofit.create(RecipeService::class.java)
                 }
             }
-            return singleton!!
+            return requireNotNull(singleton)
         }
 }
