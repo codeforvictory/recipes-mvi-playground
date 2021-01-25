@@ -5,7 +5,7 @@ import org.codeforvictory.recipes.domain.common.model.meal.Meal
 
 class AdaptToMeal {
 
-    operator fun invoke(apiMeal: ApiMeal) : Meal {
+    operator fun invoke(apiMeal: ApiMeal): Meal {
         return with(apiMeal) {
             Meal(
                 id = id,

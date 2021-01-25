@@ -7,22 +7,21 @@ import org.junit.jupiter.api.assertAll
 
 internal class AdaptToMealTest {
 
-  private val adaptToMeal = AdaptToMeal()
+    private val adaptToMeal = AdaptToMeal()
 
-  @Test
-  fun `invoke - should convert api into domain meal data`() {
-    // Given
-    val apiMeal = ApiMeal("id", "name", "http://www.image-thumbnail.com/image.png")
+    @Test
+    fun `invoke - should convert api into domain meal data`() {
+        // Given
+        val apiMeal = ApiMeal("id", "name", "http://www.image-thumbnail.com/image.png")
 
-    // When
-    val result = adaptToMeal(apiMeal)
+        // When
+        val result = adaptToMeal(apiMeal)
 
-    // Then
-    assertAll(
-      { assertEquals(apiMeal.id, result.id) },
-      { assertEquals(apiMeal.name, result.name) },
-      { assertEquals(apiMeal.imageThumbnailUrl, result.imageThumbUrl) },
-    )
-  }
-
+        // Then
+        assertAll(
+            { assertEquals(apiMeal.id, result.id) },
+            { assertEquals(apiMeal.name, result.name) },
+            { assertEquals(apiMeal.imageThumbnailUrl, result.imageThumbUrl) },
+        )
+    }
 }
