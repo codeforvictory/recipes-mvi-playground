@@ -1,0 +1,9 @@
+include(
+    ":app-cesards:app-init",
+    ":app-cesards:ui",
+    ":app-cesards:ui-common",
+    ":app-cesards:domain",
+    ":app-cesards:data"
+)
+
+
