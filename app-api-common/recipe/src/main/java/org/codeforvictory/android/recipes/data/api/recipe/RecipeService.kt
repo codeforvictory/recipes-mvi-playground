@@ -7,5 +7,5 @@ import retrofit2.http.Query
 interface RecipeService {
 
     @GET
-    suspend fun filter(@Query("a") area: String = "American"): ApiMealsResponse
+    suspend fun recipesBy(@Query("a") area: String = "American"): ApiMealsResponse
 }

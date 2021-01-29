@@ -9,7 +9,7 @@ class RecipeApiSource(
 
     suspend fun all(): Result<List<Meal>> {
         return runCatching {
-            recipeService.filter().let { response ->
+            recipeService.recipesBy().let { response ->
                 response.meals.map { apiMeal -> adaptToMeal(apiMeal) }
             }
         }

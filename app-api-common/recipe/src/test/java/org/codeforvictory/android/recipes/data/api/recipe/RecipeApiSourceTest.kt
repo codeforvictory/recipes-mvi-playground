@@ -31,7 +31,7 @@ internal class RecipeApiSourceTest {
             every { adaptToMeal(apiMeal) } returns expectedMeals[index]
         }
 
-        coEvery { recipeService.filter() } returns ApiMealsResponse(meals = apiMeals)
+        coEvery { recipeService.recipesBy() } returns ApiMealsResponse(meals = apiMeals)
 
         // When
         val result = recipeApiSource.all()
@@ -44,7 +44,7 @@ internal class RecipeApiSourceTest {
     fun `all - should return error when request is unsuccessful`() = runBlockingTest {
         // Given
         val expectedException = IOException()
-        coEvery { recipeService.filter() } throws expectedException
+        coEvery { recipeService.recipesBy() } throws expectedException
 
         // When
         val result = recipeApiSource.all()
