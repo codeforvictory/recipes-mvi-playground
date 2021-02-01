@@ -6,6 +6,8 @@ plugins {
 }
 
 dependencies {
+  implementation("javax.inject:javax.inject:1")
+
   implementation(project(":app-domain-common:model"))
 
   implementation("com.squareup.retrofit2:retrofit:2.9.0")
