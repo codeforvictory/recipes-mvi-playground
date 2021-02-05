@@ -56,7 +56,7 @@ jobs:
           java-version: 1.11
 
       - name: Detekt
-        run: ./gradlew detekt
+        run: ./gradlew detektMain
 
   tests:
     #  name: Run Unit Tests
