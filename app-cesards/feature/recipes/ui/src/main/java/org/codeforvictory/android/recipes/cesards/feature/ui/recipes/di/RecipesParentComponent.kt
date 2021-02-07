@@ -4,9 +4,9 @@ import org.codeforvictory.android.recipes.cesards.feature.recipes.domain.reposit
 
 interface RecipesParentComponent {
 
-  fun recipeRepository() : RecipeRepository
+    fun recipeRepository(): RecipeRepository
 
-  interface Provision {
-    fun recipesParentComponent () : RecipesParentComponent
-  }
+    interface Provision {
+        fun recipesParentComponent(): RecipesParentComponent
+    }
 }

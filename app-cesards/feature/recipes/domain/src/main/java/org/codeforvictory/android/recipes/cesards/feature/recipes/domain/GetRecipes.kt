@@ -5,7 +5,7 @@ import javax.inject.Inject
 
 class GetRecipes @Inject constructor(recipeRepository: RecipeRepository) {
 
-  operator fun invoke() {
-    TODO()
-  }
+    operator fun invoke() {
+        TODO()
+    }
 }

@@ -7,6 +7,6 @@ import org.codeforvictory.recipes.cesards.data.RecipeData
 
 @Module
 abstract class RecipesDataModule {
-  @Binds
-  internal abstract fun bindsRecipeData(recipeData: RecipeData) : RecipeRepository
+    @Binds
+    internal abstract fun bindsRecipeData(recipeData: RecipeData): RecipeRepository
 }

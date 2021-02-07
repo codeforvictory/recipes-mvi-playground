@@ -1,7 +1,6 @@
 package org.codeforvictory.android.recipes.cesards.feature.ui.recipes.activity
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import org.codeforvictory.android.recipes.cesards.feature.ui.recipes.di.DaggerRecipesComponent
 import org.codeforvictory.android.recipes.cesards.feature.ui.recipes.di.RecipesParentComponent

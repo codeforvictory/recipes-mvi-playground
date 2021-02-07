@@ -4,6 +4,4 @@ import androidx.lifecycle.ViewModel
 import org.codeforvictory.android.recipes.cesards.feature.recipes.domain.GetRecipes
 import javax.inject.Inject
 
-class RecipesViewModel @Inject constructor(getRecipes: GetRecipes) : ViewModel() {
-
-}
+class RecipesViewModel @Inject constructor(getRecipes: GetRecipes) : ViewModel()
