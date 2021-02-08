@@ -33,5 +33,5 @@ android {
 }
 
 dependencies {
-  "cesardsImplementation"(project(":app-cesards:app-init"))
+  "cesardsImplementation"(project(":app-cesards:init"))
 }
