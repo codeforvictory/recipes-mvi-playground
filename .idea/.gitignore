@@ -4,6 +4,8 @@ workspace.xml
 caches/
 libraries/
 modules.xml
-workspace.xml
 navEditor.xml
 assetWizardSettings.xml
+
+# It contains project-relative paths, but there are a few user paths that shouldn't be shared.
+gradle.xml
