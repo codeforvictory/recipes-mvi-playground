@@ -6,6 +6,6 @@ plugins {
 }
 
 dependencies {
-    implementation("com.google.android.material:material:1.2.1")
+    implementation("com.google.android.material:material:1.3.0")
     implementation("androidx.compose.material:material:1.0.0-alpha11")
 }
