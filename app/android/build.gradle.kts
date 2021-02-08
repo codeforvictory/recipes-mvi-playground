@@ -1,37 +1,37 @@
 plugins {
-  id("com.android.application")
-  kotlin("android")
+    id("com.android.application")
+    kotlin("android")
 }
 
 android {
-  compileSdkVersion(AndroidApp.COMPILE_SDK)
+    compileSdkVersion(AndroidApp.COMPILE_SDK)
 
-  defaultConfig {
-    applicationId = AndroidApp.ID
-    minSdkVersion(AndroidApp.MIN_SDK)
-    targetSdkVersion(AndroidApp.TARGET_SDK)
+    defaultConfig {
+        applicationId = AndroidApp.ID
+        minSdkVersion(AndroidApp.MIN_SDK)
+        targetSdkVersion(AndroidApp.TARGET_SDK)
 
-    versionCode = AndroidApp.VERSION_CODE
-    versionName = AndroidApp.VERSION_NAME
+        versionCode = AndroidApp.VERSION_CODE
+        versionName = AndroidApp.VERSION_NAME
 
-    testInstrumentationRunner = AndroidApp.INSTRUMENTATION_TEST_RUNNER
-  }
-
-  buildTypes {
-    getByName("debug")
-    getByName("release") {
-      isMinifyEnabled = false
-      proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        testInstrumentationRunner = AndroidApp.INSTRUMENTATION_TEST_RUNNER
     }
-  }
 
-  flavorDimensions("contributor")
+    buildTypes {
+        getByName("debug")
+        getByName("release") {
+            isMinifyEnabled = false
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+    }
 
-  productFlavors {
-    create("cesards")
-  }
+    flavorDimensions("contributor")
+
+    productFlavors {
+        create("cesards")
+    }
 }
 
 dependencies {
-  "cesardsImplementation"(project(":app-cesards:init"))
+    "cesardsImplementation"(project(":app-cesards:init"))
 }
