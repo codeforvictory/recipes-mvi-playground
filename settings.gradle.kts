@@ -1,9 +1,10 @@
 rootProject.name = "Recipes MVI Playground"
 
+apply(from = "$rootDir/app-cesards/settings.gradle")
+
 include(
     ":app:android",
-    ":app-ui:cesards",
-    ":app-ui-common:resources",
-    ":app-domain:recipe",
-    ":app-data:recipe"
+    ":app-ui-common:recipe",
+    ":app-api-common:recipe",
+    ":app-domain-common:model"
 )

@@ -1,0 +1,12 @@
+# Configuration used on top of the default detekt config:
+# https://github.com/detekt/detekt/blob/master/detekt-core/src/main/resources/default-detekt-config.yml
+# since we are relying on the `buildUponDefaultConfig` flag on the root's build script.
+
+build:
+  maxIssues: 5
+  excludeCorrectable: false
+  weights:
+    # complexity: 2
+    # LongParameterList: 1
+    # style: 1
+    # comments: 1

@@ -1,0 +1,9 @@
+include(
+    ":app-cesards:init",
+    ":app-cesards:feature:recipes:ui",
+    ":app-cesards:feature:recipes:domain",
+    ":app-cesards:feature:recipes:data",
+    ":app-cesards:platform:ui:design",
+)
+
+
