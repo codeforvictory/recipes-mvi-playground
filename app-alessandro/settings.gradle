@@ -1,0 +1,6 @@
+include(
+    ":app-alessandro:init",
+    ":app-alessandro:recipes-data",
+    ":app-alessandro:recipes-ui-model",
+    ":app-alessandro:recipes-ui",
+)

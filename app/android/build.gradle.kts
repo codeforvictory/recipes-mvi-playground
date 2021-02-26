@@ -29,9 +29,11 @@ android {
 
     productFlavors {
         create("cesards")
+        create("alessandro")
     }
 }
 
 dependencies {
     "cesardsImplementation"(project(":app-cesards:init"))
+    "alessandroImplementation"(project(":app-alessandro:init"))
 }
