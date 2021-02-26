@@ -1,7 +1,8 @@
 buildscript {
     repositories {
+        gradlePluginPortal()
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath("com.android.tools.build:gradle:${AndroidApp.AGP_VERSION}")
@@ -20,6 +21,7 @@ plugins {
 allprojects {
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
 }
