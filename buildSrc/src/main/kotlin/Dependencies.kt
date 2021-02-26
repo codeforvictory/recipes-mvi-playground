@@ -28,7 +28,7 @@ private fun DependencyHandler.addDependencies(dependencies: List<String>, config
 
 object Dependency {
     object Kotlin {
-        const val VERSION = "1.4.21"
+        const val VERSION = "1.4.30"
 
         const val STDLIB = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$VERSION"
         const val GRADLE_PLUGIN = "org.jetbrains.kotlin:kotlin-gradle-plugin:$VERSION"
