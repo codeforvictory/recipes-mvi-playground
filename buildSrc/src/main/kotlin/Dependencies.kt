@@ -44,18 +44,18 @@ object Dependency {
     }
 
     object Compose {
-        const val VERSION = "1.0.0-alpha10"
+        const val VERSION = "1.0.0-beta01"
+        private const val ACTIVITY_VERSION = "1.3.0-alpha03"
+        private const val VIEW_MODEL_VERSION = "1.0.0-alpha02"
 
-        private const val UI = "androidx.compose.ui:ui:$VERSION"
-        private const val ANIMATION = "androidx.compose.animation:animation:$VERSION"
-        private const val MATERIAL = "androidx.compose.material:material:$VERSION"
-        private const val FOUNDATION = "androidx.compose.foundation:foundation:$VERSION"
-        private const val COMPILER = "androidx.compose.compiler:compiler:$VERSION"
-        private const val RUNTIME = "androidx.compose.runtime:runtime:$VERSION"
-        // const val RUNTIME_LIVEDATA = "androidx.compose.runtime:runtime-livedata:$VERSION"
-        // const val RUNTIME_RXJAVA = "androidx.compose.runtime:runtime-rxjava2:$VERSION"
-
-        val all = listOf(ANIMATION, COMPILER, FOUNDATION, MATERIAL, RUNTIME, UI)
+        const val ACTIVITY = "androidx.activity:activity-compose:$ACTIVITY_VERSION"
+        const val FOUNDATION = "androidx.compose.foundation:foundation:$VERSION"
+        const val MATERIAL = "androidx.compose.material:material:$VERSION"
+        const val RUNTIME = "androidx.compose.runtime:runtime:$VERSION"
+        const val RUNTIME_LIVEDATA = "androidx.compose.runtime:runtime-livedata:$VERSION"
+        const val RUNTIME_RXJAVA = "androidx.compose.runtime:runtime-rxjava2:$VERSION"
+        const val UI = "androidx.compose.ui:ui:$VERSION"
+        const val VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-compose:$VIEW_MODEL_VERSION"
     }
 
     object OkHttp {
