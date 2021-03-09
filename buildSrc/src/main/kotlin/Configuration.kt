@@ -10,7 +10,7 @@ object AndroidApp {
     const val VERSION_CODE = 1
     const val VERSION_NAME = "1.0.0"
 
-    const val AGP_VERSION = "7.0.0-alpha06"
+    const val AGP_VERSION = "7.0.0-alpha08"
 
     const val INSTRUMENTATION_TEST_RUNNER = "androidx.test.runner.AndroidJUnitRunner"
 
