@@ -13,7 +13,7 @@ plugins {
     // https://plugins.gradle.org/plugin/com.diffplug.spotless
     id("com.diffplug.spotless") version "5.10.2" apply true
     // https://plugins.gradle.org/plugin/io.gitlab.arturbosch.detekt
-    id("io.gitlab.arturbosch.detekt") version "1.15.0"
+    id("io.gitlab.arturbosch.detekt") version "1.17.1"
 }
 
 // Use allprojects API instead of subprojects for repository provision, since it also provides build's plugins block dependencies.
