@@ -11,7 +11,7 @@ buildscript {
 
 plugins {
     // https://plugins.gradle.org/plugin/com.diffplug.spotless
-    id("com.diffplug.spotless") version "5.10.2" apply true
+    id("com.diffplug.spotless") version "5.14.1" apply true
     // https://plugins.gradle.org/plugin/io.gitlab.arturbosch.detekt
     id("io.gitlab.arturbosch.detekt") version "1.15.0"
 }
